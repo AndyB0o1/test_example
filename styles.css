@@ -1,0 +1,159 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.left-box {
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    color: white;
+    background-image: linear-gradient(rgb(111, 0, 255), rgb(24, 49, 158));
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#your_result {
+    color: rgb(229, 227, 227);
+}
+
+.circle {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+circle {
+    background-image: linear-gradient(rgb(24, 49, 158), rgb(111, 0, 255));
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#number {
+    font-size: 20px;
+}
+
+#great {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.score {
+    color: rgb(229, 227, 227);
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.right-box {
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 10px 5px 5px rgb(223, 220, 220);
+    color: darkblue;
+}
+
+i {
+    margin-right:10px;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(245, 203, 210);
+    font-size: small;
+    border-radius: 5px;
+    width: 90%;
+    height: 15px;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.memory {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(245, 224, 187);
+    font-size: small;
+    border-radius: 5px;
+    width: 90%;
+    height: 15px;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(204, 243, 230);
+    font-size: small;
+    border-radius: 5px;
+    width: 90%;
+    height: 15px;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(211, 199, 238);
+    font-size: small;
+    border-radius: 5px;
+    width: 90%;
+    height: 15px;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.score-type {
+    text-align: right;
+    margin-right: 5px;
+}
+
+#reaction {
+    color: rgb(244, 113, 135);
+}
+
+#memory {
+    color: rgb(234, 184, 92);
+}
+
+#verbal {
+    color: mediumaquamarine;
+}
+
+#visual {
+    color:rgb(125, 78, 235);
+}
+
+.continue {
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 7px;
+    width: 100%;
+    background: darkblue;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+    main {
+        flex-direction: row;
+        justify-content: center;
+        box-shadow: 5px grey;
+    }
+}
